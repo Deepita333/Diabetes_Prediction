@@ -1,0 +1,2 @@
+install jupyter notebook
+make sure you have numpy, pandas , matplotlib, scikit-learn installed in your device
