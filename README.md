@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifierv
  make sure you have scikit-learn installed in your device
 
-```code
+```
 import numpy as np
 import pandas as pd
 import matplotlib as plt
@@ -64,10 +64,10 @@ new_data = pd.DataFrame({
 
 
 for feature in categorical_features:
-    new_data[feature] = LabelEncoder().fit_transform(new_data[feature])```
+    new_data[feature] = LabelEncoder().fit_transform(new_data[feature])
 
 new_prediction = model.predict(new_data)
-print("Predicted diabetes for new data:", new_prediction[0])
+print("Predicted diabetes for new data:", new_prediction[0])```
 
 
 
